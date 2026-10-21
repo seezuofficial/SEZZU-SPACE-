@@ -1,0 +1,1 @@
+Add your profile photo here as profile.jpg. Then open script.js and uncomment the two profile-image lines near the bottom.

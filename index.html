@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#090b12">
+  <meta name="description" content="Personal portfolio, projects, writing and gallery.">
+  <title>SEZZU SPACE — Personal Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <header class="site-header wrap">
+    <a class="brand" href="#home"><span class="brand-mark">S.</span><span>SEZZU<span class="brand-dot">/</span>SPACE</span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">☰</button>
+    <nav id="mainNav">
+      <a href="#about">About</a><a href="#projects">Projects</a><a href="#journal">Journal</a><a href="#gallery">Gallery</a><a href="#contact">Contact</a>
+      
+    </nav>
+  </header>
+
+
+  <div class="theme-dock" aria-label="Choose an aesthetic theme">
+    <div><span class="theme-label">MAKE IT YOUR VIBE</span><br><small>Switch the site's color mood anytime</small></div>
+    <div class="theme-tools">
+      <button class="theme-swatch" data-theme-choice="lavender" style="background:linear-gradient(135deg,#c4b5fd,#67e8f9)" aria-label="Lavender dream" aria-pressed="true" title="Lavender dream"></button>
+      <button class="theme-swatch" data-theme-choice="blue" style="background:linear-gradient(135deg,#9cc8ff,#1e3a8a)" aria-label="Midnight blue" aria-pressed="false" title="Midnight blue"></button>
+      <button class="theme-swatch" data-theme-choice="pink" style="background:linear-gradient(135deg,#f0abfc,#be185d)" aria-label="Pink noir" aria-pressed="false" title="Pink noir"></button>
+      <button class="theme-swatch" data-theme-choice="mono" style="background:linear-gradient(135deg,#fff,#333)" aria-label="Monochrome" aria-pressed="false" title="Monochrome"></button>
+      <button class="theme-swatch" data-theme-choice="anime" style="background:linear-gradient(135deg,#c4b5fd,#f9a8d4,#67e8f9)" aria-label="Anime glow" aria-pressed="false" title="Anime glow"></button>
+    </div>
+  </div>
+
+  <main>
+    <section class="hero wrap reveal" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="status-dot"></span> PERSONAL PORTFOLIO · ONLINE</div>
+        <h1>Building ideas<br>into <span class="gradient-text">something real.</span></h1>
+        <p class="hero-intro">Hey, I'm <strong>Sezzu</strong> — a curious creator exploring technology, digital experiences and new ideas. This is my corner of the internet.</p>
+        <div class="hero-actions"><a class="button primary" href="#projects">Explore my work <span>↗</span></a><a class="button ghost" href="#contact">Say hello</a></div>
+        <div class="social-row" aria-label="Social links">
+          <a href="https://instagram.com/" target="_blank" rel="noreferrer">Instagram ↗</a>
+          <a href="https://github.com/" target="_blank" rel="noreferrer">GitHub ↗</a>
+          <a href="https://t.me/" target="_blank" rel="noreferrer">Telegram ↗</a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
+        <div class="profile-card">
+          <div class="profile-top"><span>PROFILE / 001</span><span class="live-pill">● AVAILABLE</span></div>
+          <div class="avatar" id="avatar"><span>YOUR<br>PHOTO</span></div>
+          <h2>Sezzu</h2><p class="muted">Creator · Learner · Builder</p>
+          <div class="profile-stats"><div><strong>Curiosity</strong><span>Always on</span></div><div><strong>Next goal</strong><span>Build & grow</span></div></div>
+        </div>
+        <div class="floating-chip chip-top">✦ Keep creating</div><div class="floating-chip chip-bottom">⌘ Digital playground</div>
+      </div>
+    </section>
+
+    <section class="section wrap reveal" id="about">
+      <div class="section-heading"><span class="section-index">01 / ABOUT</span><h2>A little about <span class="gradient-text">me.</span></h2></div>
+      <div class="about-grid">
+        <p class="about-lead">I like learning how things work, experimenting with technology and turning small ideas into useful projects.</p>
+        <div class="about-details"><p>Use this section to tell your own story: what you do, what you're learning, and what kind of work excites you. Keep it genuine and update it as you grow.</p><div class="skill-list"><span>HTML & CSS</span><span>JavaScript</span><span>UI Design</span><span>Creative Ideas</span><span>Problem Solving</span></div></div>
+      </div>
+    </section>
+
+    <section class="section wrap reveal" id="projects">
+      <div class="section-heading split-heading"><div><span class="section-index">02 / SELECTED WORK</span><h2>Things I've <span class="gradient-text">made.</span></h2></div><span class="muted heading-note">A few experiments & ideas</span></div>
+      <div class="project-grid">
+        <article class="project-card project-purple"><div class="project-art art-orbit"><span>✳</span></div><div class="project-meta"><span>01 — WEB EXPERIENCE</span><span>↗</span></div><h3>SEEZU Space</h3><p>A personal digital space for ideas, creativity and connection.</p><div class="tag-row"><span>UI/UX</span><span>Web</span></div></article>
+        <article class="project-card project-blue"><div class="project-art art-waves"><span>◒</span></div><div class="project-meta"><span>02 — MOBILE CONCEPT</span><span>↗</span></div><h3>HeartLink</h3><p>A concept for helping people connect with their community.</p><div class="tag-row"><span>Concept</span><span>Product</span></div></article>
+        <article class="project-card project-orange"><div class="project-art art-sun"><span>✺</span></div><div class="project-meta"><span>03 — EXPERIMENT</span><span>↗</span></div><h3>Daily Notes</h3><p>A tiny space for collecting thoughts, learning and progress.</p><div class="tag-row"><span>Ideas</span><span>Journal</span></div></article>
+      </div>
+      <p class="hint">Replace these sample projects with your real projects, screenshots and links.</p>
+    </section>
+
+    <section class="section wrap reveal" id="journal">
+      <div class="section-heading"><span class="section-index">03 / JOURNAL</span><h2>Notes from the <span class="gradient-text">journey.</span></h2></div>
+      <div class="journal-list">
+        <article><div class="journal-date">NOTE 001 · START HERE</div><div><h3>Why I'm building my own corner of the web</h3><p>A home for projects, lessons and experiments — one update at a time.</p></div><span class="journal-arrow">↗</span></article>
+        <article><div class="journal-date">NOTE 002 · LEARNING</div><div><h3>Small steps beat waiting for perfect</h3><p>Build a first version, learn from it, and keep improving.</p></div><span class="journal-arrow">↗</span></article>
+      </div>
+    </section>
+
+    <section class="section wrap reveal" id="gallery">
+      <div class="section-heading"><span class="section-index">04 / GALLERY</span><h2>Frames & <span class="gradient-text">fragments.</span></h2></div>
+      <div class="gallery-grid">
+        <div class="gallery-tile gallery-one"><span>ADD YOUR PHOTO</span></div><div class="gallery-tile gallery-two"><span>YOUR MOMENT</span></div><div class="gallery-tile gallery-three"><span>YOUR WORLD</span></div>
+      </div>
+      <p class="hint">To add images, place your photos in <code>assets/</code> and set them as backgrounds in <code>style.css</code>.</p>
+    </section>
+
+    <section class="section wrap music-section reveal">
+      <div class="music-copy"><span class="section-index">A LITTLE ATMOSPHERE</span><h2>Press play.<br><span class="gradient-text">Find your flow.</span></h2><p>Use your own MP3 file. Browsers only start audio after you press play.</p></div>
+      <div class="music-player"><div class="music-disc">♫</div><div class="music-info"><span class="section-index">NOW PLAYING</span><strong id="trackName">Add your own track</strong><span class="muted">Personal soundtrack</span><audio id="audio" controls preload="none"><source src="assets/music.mp3" type="audio/mpeg">Your browser does not support audio.</audio><small>Put a file named <code>music.mp3</code> in <code>assets/</code>.</small></div></div>
+    </section>
+
+    <section class="section wrap contact-section reveal" id="contact">
+      <div class="section-heading"><span class="section-index">05 / CONTACT</span><h2>Have an idea? <span class="gradient-text">Let's talk.</span></h2></div>
+      <div class="contact-grid"><div><p class="about-lead">Questions, collaborations or just a friendly hello — send a message.</p><p class="muted">This starter form opens your email app. For a hosted form, connect a form service later.</p><a class="email-link" href="mailto:your.email@example.com">your.email@example.com ↗</a></div>
+        <form id="contactForm" class="contact-form"><label>Your name<input required name="name" placeholder="What should I call you?"></label><label>Your email<input required type="email" name="email" placeholder="you@example.com"></label><label>Message<textarea required name="message" rows="4" placeholder="Tell me what's on your mind..."></textarea></label><button class="button primary" type="submit">Prepare message ↗</button><p class="form-note" id="formNote" role="status"></p></form>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer wrap"><a class="brand" href="#home"><span class="brand-mark">S.</span><span>SEZZU<span class="brand-dot">/</span>SPACE</span></a><span class="muted">Made with curiosity · <span id="year"></span></span><a href="#home">Back to top ↑</a></footer>
+  <script src="script.js"></script>
+</body>
+</html>
